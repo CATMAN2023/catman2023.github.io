@@ -1,0 +1,285 @@
+.UNO{
+  background-color:black;
+}
+.containerAPI {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.titulo1 {
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    font-size: 45px;
+    font-weight:bold;
+    
+}
+
+.for{
+    color: chartreuse;
+}
+/*.anio{
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+}
+div{
+    border: 2px solid blue;
+}*/
+.equiposA {
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+  
+    scroll-snap-type: x mandatory;
+    /*height: 90px;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;*/
+    overflow: hidden;
+  }   
+  .equiposB {
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+  
+    scroll-snap-type: x mandatory;
+  }   
+  *{
+    box-sizing: border-box;
+  }
+  .slider-item{
+    /*width:fit-content;
+    height:fit-content;*/
+    width:100%;
+    height: min-content;
+  }
+  .primera{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color:black;
+    border-color: black;
+    }
+    
+  
+  .marquee li {
+    font-size: 50px;
+  }
+  .marquee__content {
+    display: flex;
+    list-style: none;
+    animation: scrolling 30s linear infinite;
+  }
+  
+  .marquee__item {
+    flex: shrink 0;;
+  }
+  .marquee__content2 {
+    display: flex;
+    list-style: none;
+    /*animation: scrolling 30s linear infinite;*/
+  }
+  .marquee__content3 {
+    display: flex;
+    list-style: none;
+    /*animation: scrolling 30s linear infinite;*/
+  }
+  @keyframes scrolling {
+    0% { transform: translateX(0) }
+    100% { transform: translateX(-100%) }
+  }
+  .slider-item {
+    /*flex: 0 0 100%;*/
+    box-shadow: 0px 4px 10px 0px rgba(0, 0,0, 0.85);
+    width:150px;
+    height: 576 px;
+    object-fit: cover;
+    position: relative;
+
+    scroll-snap-align: center;
+  } 
+  .slider-item_m{
+    width: 80px;
+    height: 80px;
+  }
+  .column{
+    flex:25%;
+  }
+  .column2{
+    flex:20%
+  }
+  /*.slider-item:hover.titulo1{
+    transition: height 1;
+  }
+  .slider-item {
+	width: 100vw;
+	flex-shrink: 0;
+	animation-name: slider-item;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}*/
+.FDO{
+    
+    background-image:url("C:/Users/CARLO/Downloads/FOOTBALL/FONDOS/oip5.jpg");
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background-color:darkgray;
+    background-repeat: round;
+    /*margin:auto;
+    padding: auto;*/
+}
+.LEYENDA{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.name{
+  text-align:right;
+  font-size: 24px;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.cuadro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	height: 14vh;
+	background-color:transparent;
+}
+.titulo2{
+  font-size: 20px;
+  font: larger;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+input{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+
+}
+label{
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;}
+select {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: cursive, sans-serif;
+  outline: 0;
+  border: 1px solid crimson;
+  background: #2ecc71;
+  color:#fff;
+  border-radius: 9px;
+  padding: 4px;
+}
+.contenedor2{
+  background-color: transparent;
+  float: right;
+ }
+ .contenedor4{
+  background-color: transparent;
+  float: right;
+  
+  
+}
+.dropdown-item{
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  position: relative;
+  display: inline-block;
+  
+}
+/*.buscando {
+  float: none;
+  width: 100%;
+  max-width: 453px;
+  margin-bottom: 25px;
+  margin-top: 29px;
+  margin-left: auto;
+  margin-right: auto;
+  display:inline-block;
+  text-align:center;
+  border: 2px solid blue;
+  padding: 0;
+}
+/*.busqueda {
+    padding: 0;
+    float: left;
+    clear: both;
+    width: 100%;
+    position:relative;
+}*/
+/*#busqueda fieldset{
+  float: left
+}*/
+
+/*.busqueda {
+    font-size: 20px;
+    top: 0px;
+    color:#343d46;
+    background: #33BCF2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+#busqueda fieldset { width: 100% }
+
+
+#s {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+}
+
+.button{
+    right: 0;
+    top: 0;
+    padding: 9px 0;
+    float: right;
+    border: 0;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    color:blueviolet;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+    vertical-align: top;
+    border-color: blue;
+}

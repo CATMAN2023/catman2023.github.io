@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="C:\Users\CARLO\Downloads\FOOTBALL\apixx.css">
+    
+    <title>Rick and Morty Characters</title>
+    <!--<style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+       .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+       .personaje {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+       .personaje img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+       .personaje h4 {
+            margin-top: 0;
+        }
+       .filtro {
+            margin-bottom: 20px;
+        }
+       .filtro label {
+            display: block;
+            margin-bottom: 10px;
+        }
+       .filtro input,.filtro select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>-->
+</head>
+<body>
+    <div class="container">
+        <h1>Rick and Morty Characters</h1>
+        <div class="filtro">
+            <label for="input-nombre">Buscar por nombre:</label>
+            <input type="text" id="input-nombre" placeholder="Escribe el nombre del personaje">
+        </div>
+        <div class="filtro">
+            <label for="select-especie">Filtrar por especie:</label>
+            <select id="select-especie">
+                <option value="">Todos</option>
+                <option value="Human">Human</option>
+                <option value="Alien">Alien</option>
+                <option value="Robot">Robot</option>
+                <option value="Unknown">Unknown</option>
+            </select>
+        </div>
+        <div class="filtro">
+            <label for="select-genero">Filtrar por género:</label>
+            <select id="select-genero">
+                <option value="">Todos</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Unknown">Unknown</option>
+            </select>
+        </div>
+        <div id="personajes">
+            <!-- Aquí se mostrarán los personajes -->
+        </div>
+    </div>
+
+    <script src="apixx.js"></script>
+</body>
+</html>

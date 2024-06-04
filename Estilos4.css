@@ -1,0 +1,41 @@
+.FDA{
+    color:black;
+    /*font-weight:bolder;
+    font: size 30px;*/
+    font-size: 2.572rem;
+    margin-bottom: .5715rem;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    box-shadow: 0 1px 0 black /* color rojo */
+    
+      
+}
+
+.text-center{
+    background-image:url("C:/Users/CARLO/Downloads/FOOTBALL/FONDOS/oip.jpg");
+    /*background-color:aqua;
+    left: 0;
+    right: 0;*/
+    width: 80%;
+    margin: 40 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cuadro{
+    
+    /*width:80%;*/
+    background-color: antiquewhite;
+    border-color: black;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    position: absolute;
+    left:80;
+    right:80;
+    margin:0;
+}
