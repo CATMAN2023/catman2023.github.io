@@ -64,6 +64,7 @@
         loginButton.addEventListener("click", () => {
         event.preventDefault();
         // Redireccionar a la página web
-        window.location.href="C:/Users/CARLO/Downloads/FOOTBALL/LIGA.html";
+        window.location.href="LIGA.html";
+        //window.location.href="C:/Users/CARLO/Downloads/FOOTBALL/LIGA.html";
   });
         }
