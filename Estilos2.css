@@ -1,0 +1,18 @@
+.leyenda{
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+img {
+    height: 300px;
+    width: 400px;
+    
+    max-width: 100%;
+    height: auto;
+
+    display: block;
+    margin: 0 auto;
+    /*width: 700px;*/
+  }
+
+  
