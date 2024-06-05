@@ -20,11 +20,7 @@
 .for{
     color: chartreuse;
 }
-/*.anio{
-    text-align: center;
-    color: grey;
-    font-size: 40px;
-}
+/*
 div{
     border: 2px solid blue;
 }*/
@@ -118,24 +114,10 @@ div{
   .column2{
     flex:20%
   }
-  /*.slider-item:hover.titulo1{
-    transition: height 1;
-  }
-  .slider-item {
-	width: 100vw;
-	flex-shrink: 0;
-	animation-name: slider-item;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-
-.slides:hover .slide {
-	animation-play-state: paused;
-}*/
+ 
 .FDO{
-    
-    background-image:url("C:/Users/CARLO/Downloads/FOOTBALL/FONDOS/oip5.jpg");
+    background: #f2f2f2 url("FONDOS/oip5.jpg");
+    /*background-image:url("FONDOS/oip5.jpg");
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
     background-color:darkgray;
@@ -210,76 +192,4 @@ select {
   position: relative;
   display: inline-block;
   
-}
-/*.buscando {
-  float: none;
-  width: 100%;
-  max-width: 453px;
-  margin-bottom: 25px;
-  margin-top: 29px;
-  margin-left: auto;
-  margin-right: auto;
-  display:inline-block;
-  text-align:center;
-  border: 2px solid blue;
-  padding: 0;
-}
-/*.busqueda {
-    padding: 0;
-    float: left;
-    clear: both;
-    width: 100%;
-    position:relative;
-}*/
-/*#busqueda fieldset{
-  float: left
-}*/
-
-/*.busqueda {
-    font-size: 20px;
-    top: 0px;
-    color:#343d46;
-    background: #33BCF2;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 9px;
-    height: 24px;
-    width: 24px;
-    text-align: center;
-}
-#busqueda fieldset { width: 100% }
-
-
-#s {
-    width: 100%;
-    background-color: #fff;
-    float: left;
-    padding: 8px 0;
-    text-indent: 10px;
-    color: #555555;
-    border: 1px solid #fff; 
-    box-sizing: border-box;
-    height: 42px;
-}
-
-.button{
-    right: 0;
-    top: 0;
-    padding: 9px 0;
-    float: right;
-    border: 0;
-    width: 42px;
-    height: 42px;
-    cursor: pointer;
-    text-align: center;
-    padding-top: 10px;
-    color:blueviolet;
-    transition: all 0.25s linear;
-    background: transparent;
-    z-index: 10;
-    position: absolute;
-    border: 0;
-    vertical-align: top;
-    border-color: blue;
 }
