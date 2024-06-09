@@ -20,9 +20,9 @@
 .for{
     color: chartreuse;
 }
-/*
-div{
-    border: 2px solid blue;
+
+/*div{
+    border: 4px solid blue;
 }*/
 .equiposA {
     display:flex;
@@ -176,11 +176,11 @@ select {
   padding: 4px;
 }
 .contenedor2{
-  background-color: transparent;
+  background-color:dimgray;
   float: right;
  }
  .contenedor4{
-  background-color: transparent;
+  background-color:dimgray;
   float: right;
   
   
@@ -188,7 +188,8 @@ select {
 .dropdown-item{
   font-size: 14px;
   font-weight: bold;
-  background-color: #4CAF50;
+  background-color:green;
+  color: #000;
   position: relative;
   display: inline-block;
   

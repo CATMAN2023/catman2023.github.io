@@ -8,7 +8,11 @@ let allTeamsData; // Variable para almacenar todos los datos de equipos
 
 // Hacer la solicitud fetch y renderizar la lista de equipos inicialmente
 //fetch("https://cors-anywhere.herokuapp.com/http://localhost/API/equipos.json")                   
-fetch("http://localhost/API/equipos.json")
+//fetch("http://localhost:80/API/equipos.json")
+fetch("http://localhost/API/equipos.json") //ES LA UNICA QUE FUNCIONO HASTA QUE SE BLOQUEO"
+//fetch('http://localhost/API/equipos.json')
+//fetch("http://localhost:8080/API/equipos.json")
+//fetch("../API/equipos.json")
     .then(response => response.json())
     .then(data => {
         allTeamsData = data; // Almacena todos los datos de equipos
@@ -69,7 +73,7 @@ function renderTeamList(data) {
     teamList.innerHTML = '';
     data.forEach(team => {
         const teamItem = document.createElement('div');
-        teamItem.classList.add('team-item'); // Agrega la clase .team-item
+        teamItem.classList.add('team-item'); 
         teamItem.innerHTML = `
             <img src="${team.logo}" alt="${team.name}" width="50">
             <h2>${team.name} </h2>

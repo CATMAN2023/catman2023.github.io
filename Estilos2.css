@@ -1,9 +1,9 @@
 .leyenda{
     font-size: 20px;
     text-align: center;
-    color: blue;
+    color:black;
 }
-img {
+.imagen {
     height: 300px;
     width: 400px;
     
@@ -14,5 +14,31 @@ img {
     margin: 0 auto;
     /*width: 700px;*/
   }
+  .botonback{
+        background-color: #ff9900;
+        color: white;
+        border: 2px solid black;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+.contenedor1{
+    /*background-color: darkgray;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('./FONDOS/clubs.png') no-repeat center;
+    background-size: cover;
+}
+/*.minicontenedor{
+    background-color: darkgray;
+}*/
+/*div {
+    background: url('./FONDOS/clubs.png') no-repeat center;
+  }*/
+
+  
 
   
